@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "concurrently \"cd webclient/ && ng build --watch\" \"nodemon bin/www\""
+    "start": "concurrently \"cd webclient/ && ng build --watch\" \"nodemon bin/www\"",
+    "ngbuild": "cd webclient/ && ng build --watch",
+    "serve": "node bin/www"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^3.4.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.1.0"
   }
 }
