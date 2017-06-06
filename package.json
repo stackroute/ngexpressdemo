@@ -1,0 +1,15 @@
+{
+  "name": "ngexpressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "concurrently \"cd webclient/ && ng build --watch\" \"nodemon bin/www\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.4.0"
+  }
+}
