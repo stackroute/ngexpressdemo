@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"cd webclient/ && ng build --watch\" \"nodemon bin/www\"",
     "ngbuild": "cd webclient/ && ng build --watch",
-    "serve": "node bin/www"
+    "serve": "nodemon bin/www"
   },
   "keywords": [],
   "author": "",
